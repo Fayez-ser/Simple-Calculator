@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./custom.css">
+
+    <title>Calculator</title>
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+    <!--Calculator Structure-->
+    <div class="container p-3 rounded-3">
+        <!--Calculator Screen-->
+        <div class="calc-screen-container mb-3 rounded-2 overflow-hidden">
+            <input type="text" value="" class="calc-screen w-100 px-3 fs-4 text-white bg-dark rounded-2" id="calc-screen" disabled>
+        </div>
+        <!--Calculator Keys-->
+        <div class="calc-keys">
+            <button type="button" class="btn fs-4 btn-danger" id="clear-btn">C</button>
+            <button type="button" class="btn fs-4 btn-primary op-btn">%</button>
+            <button type="button" class="btn fs-4 btn-primary op-btn ">/</button>
+            <button type="button" class="btn fs-4 btn-primary op-btn">x</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">7</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">8</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">9</button>
+            <button type="button" class="btn fs-4 btn-primary op-btn">-</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">4</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">5</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">6</button>
+            <button type="button" class="btn fs-4 btn-primary op-btn">+</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">1</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">2</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">3</button>
+            <button type="button" class="btn fs-4 btn-secondary num-btn">.</button>
+            <button type="button" class="btn fs-4 btn-secondary zero-btn num-btn clickable">0</button>
+            <button type="button" class="btn fs-4 btn-success equal-btn" id="equal-btn">=</button>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
